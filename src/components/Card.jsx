@@ -12,8 +12,8 @@ const Card = () => {
                     <p className='text-[14px] leading-[16.8px] text-kesari-900 font-normal'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut imperdiet enim nec orci lacinia pellentesque.</p>
                 </div>
                 <div className='space-x-2 flex'>
-                    <Button className="py-[10px] px-5 rounded-[10px] w-full md:w-auto text-[16px] bg-kesari-400 text-white">Die Now</Button>
-                    <Button className="py-[10px] px-5 rounded-[10px] w-full md:w-auto text-[16px] bg-white text-kesari-900">Die Later</Button>
+                    <Button className="py-[10px] px-5 rounded-[10px] w-full md:w-auto text-[16px] bg-kesari-400 text-white transition-colors hover:bg-kesari-500">Die Now</Button>
+                    <Button className="py-[10px] px-5 rounded-[10px] w-full md:w-auto text-[16px] bg-white text-kesari-900 transition-colors hover:bg-customWhite">Die Later</Button>
                 </div>
             </div>
         </div>
