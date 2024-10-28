@@ -7,9 +7,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        "kesari-500": "#E15315",
-        "kesari-900": "#411309",
-        "kesari-400": "#F06D1F"
+        kesari: {
+          100: "#FDECD7",
+          400: "#F06D1F",
+          500: "#E15315",
+          900: "#411309"
+        },
+        customWhite: "#FEF6EE"
       }
     },
   },

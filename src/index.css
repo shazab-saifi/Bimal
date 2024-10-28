@@ -5,3 +5,9 @@
 .custom-gradient {
     background: linear-gradient(180deg, #F4C115 0%, #D71B1F 100%);
 }
+
+.dm-sans{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
