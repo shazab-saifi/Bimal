@@ -5,7 +5,7 @@ import Footer from "./components/Footer"
 function App() {
 
   return (
-    <div className="w-screen min-h-screen custom-gradient flex flex-col items-center dm-sans">
+    <div className="max-w-screen min-h-screen custom-gradient flex flex-col items-center dm-sans">
       <Header />
       <Hero />
       <Footer/>
